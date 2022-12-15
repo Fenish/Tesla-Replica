@@ -1,42 +1,34 @@
-# Nuxt 3 Minimal Starter
+# Tesla Replica
+Vue composition api and Tailwindcss replica of [Tesla Motors](https://www.tesla.com/) Made with [Nuxt 3](https://nuxt.com/)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
 
 ## Setup
-
-Make sure to install the dependencies:
-
-```bash
+```
 # yarn
 yarn install
 
 # npm
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
+
 ## Development Server
-
 Start the development server on http://localhost:3000
+```
+# yarn
+yarn run dev
 
-```bash
+#npm
 npm run dev
 ```
 
 ## Production
-
 Build the application for production:
+```
+# yarn
+yarn run build
 
-```bash
+# npm
 npm run build
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
