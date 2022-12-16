@@ -26,9 +26,16 @@ var products = [
 
 <template>
   <div>
-    <Overlay />
+    <Overlay :products="products" />
     <div id="Products" class="snap-y snap-mandatory h-screen w-screen overflow-y-scroll">
-      <Product v-for="product in products" :key="product.Title" :Title="product.Title" :Subtitle="product.Subtitle" :Background="product.Background" :Href="product.Href" />
+      <LazyProduct v-for="product in products" :key="product.Title" :Title="product.Title" :Subtitle="product.Subtitle" :Background="product.Background" :Href="product.Href" />
     </div>
   </div>
 </template>
+
+
+<style scoped>
+::-webkit-scrollbar {
+  width: 0;
+}
+</style>
