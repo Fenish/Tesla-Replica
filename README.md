@@ -2,6 +2,9 @@
 Vue composition api and Tailwindcss replica of [Tesla Motors](https://www.tesla.com/) Made with [Nuxt 3](https://nuxt.com/)
 
 
+# Preview
+https://tesla-replica.vercel.app/
+
 
 ## Setup
 ```
