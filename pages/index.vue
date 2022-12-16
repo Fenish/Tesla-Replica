@@ -25,7 +25,10 @@ var products = [
 
 
 <template>
-  <div id="Products" class="snap-y snap-mandatory h-screen w-screen overflow-y-scroll">
-    <Product v-for="product in products" :key="product.Title" :Title="product.Title" :Subtitle="product.Subtitle" :Background="product.Background" :Href="product.Href" />
+  <div>
+    <Overlay />
+    <div id="Products" class="snap-y snap-mandatory h-screen w-screen overflow-y-scroll">
+      <Product v-for="product in products" :key="product.Title" :Title="product.Title" :Subtitle="product.Subtitle" :Background="product.Background" :Href="product.Href" />
+    </div>
   </div>
 </template>
