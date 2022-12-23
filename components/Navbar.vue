@@ -73,6 +73,7 @@ li {
   padding: 8px;
   border-radius: 12px;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 li:hover {
