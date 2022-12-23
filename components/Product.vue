@@ -58,7 +58,7 @@ if (!props.Title.includes("Model")) {
       </div>
       <div class="absolute bottom-28 w-full">
         <div v-if="props.Title != `Accessories`">
-          <div class="flex m-auto gap-8 justify-center">
+          <div class="flex m-auto gap-8 justify-center flex-col sm:flex-row items-center">
             <div v-motion :initial="{ opacity: 0, x: -100 }" :enter="{ opacity: 1, x: 0, transition: { duration: 500 } }" :delay="500">
               <ProductButton :Text="Button1Text" Theme="Black" />
             </div>
